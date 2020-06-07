@@ -102,3 +102,20 @@ main {
 .color-calculator {
    border-top: 5px solid hsl(212, 86%, 64%);
 }
+
+@media screen and (max-width: 767px) {
+   main {
+      display: block;
+/*       grid-template-columns: 1fr;
+      grid-template-rows: auto; */
+   }
+   .first-section-container {
+      display: block;
+   }
+   .first-section-container div {
+      margin: 10px 0 0 0;
+   }
+   section {
+      margin: 20px 0 0px 0;
+   }
+}
