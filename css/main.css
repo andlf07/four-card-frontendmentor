@@ -1,0 +1,58 @@
+body {
+   border: 1px solid red;
+   margin: 0;
+}
+main {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+.first-section-container {
+   border: 1px solid red;
+   display: grid;
+   grid-template-rows: 300px 500px 500px;
+   grid-column: 2 / 3;
+   justify-items: center;
+/*    align-items: center;
+   justify-items: center; */
+}
+.team-builder-container, .karma-container {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+}
+/* .team-builder-container .card-container {
+   border: 1px solid red;
+   grid-row: 2 / 3;
+   width: 100%;
+   height: 100%;
+} */
+/* .first-section-container .karma-container {
+   border: 1px solid red;
+   grid-row: 3 / 4;
+   width: 90%;
+   height: 90%;
+} */
+.supervisor-container {
+   border: 1px solid red;
+   display: grid;
+   grid-template-rows: 550px 500px 250px;
+   grid-column: 1 / 2;
+   grid-row: 1 / 2;
+   align-items: center;
+   justify-items: center;
+}
+.calculator-container {
+   display: grid;
+   grid-template-rows: 550px 500px 250px;
+   grid-column: 3 / 4;
+   grid-row: 1 / 2;
+   align-items: center;
+   justify-items: center;
+}
+.card-container {
+      border: 1px solid red;
+      grid-row: 2 / 3;
+      width: 90%;
+      height: 90%;
+}
